@@ -7,7 +7,7 @@ const web3 = window.solanaWeb3;
 /**************************************************/
 
 const HTTP_RPC_URL = "https://devnet.helius-rpc.com/?api-key=56de2bc4-02f3-492b-b608-8b970b885691";
-const WS_RPC_URL = "ws://devnet.helius-rpc.com/?api-key=56de2bc4-02f3-492b-b608-8b970b885691";
+const WS_RPC_URL = "wss://devnet.helius-rpc.com/?api-key=56de2bc4-02f3-492b-b608-8b970b885691";
 
 /**************************************************/
 

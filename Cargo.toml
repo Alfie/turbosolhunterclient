@@ -1,0 +1,19 @@
+[package]
+name = "turbo-solhunter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+turbo = { version = ">=0.3.10", package = "turbo-genesis-sdk", features = [
+"solana",
+] }
+#bs58 = "0.5.0"
+sol-hunter = { path = "/Users/alfie/Documents/solana-roguelike/SolHunter/sol-hunter/programs/sol-hunter" }
+
+[patch.crates-io]
+cc = { git = "https://github.com/jozanza/cc-rs.git", branch = "wasm-patch" }
+
+[lib]
+crate-type = ["cdylib"]

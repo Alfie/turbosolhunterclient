@@ -9,7 +9,7 @@ turbo::cfg! {r#"
     resolution = [256, 256]
     [solana]
     http-rpc-url = "https://devnet.helius-rpc.com/?api-key=56de2bc4-02f3-492b-b608-8b970b885691"
-    ws-rpc-url = "ws://devnet.helius-rpc.com/?api-key=56de2bc4-02f3-492b-b608-8b970b885691"
+    ws-rpc-url = "wss://devnet.helius-rpc.com/?api-key=56de2bc4-02f3-492b-b608-8b970b885691"
 "#
 }
 
